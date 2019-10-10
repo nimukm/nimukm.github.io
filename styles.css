@@ -8,7 +8,11 @@ ul, li, h4, h3, h2, h1, p{
 	margin:0;
 	list-style:none;
 }
-
+.img_class {
+	position:relative;
+	height:425px;
+	width:725px;
+	margin-top:40px;
 .next, .prev{
 	cursor:pointer;
 }
