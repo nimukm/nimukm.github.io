@@ -8,11 +8,11 @@ ul, li, h4, h3, h2, h1, p{
 	margin:0;
 	list-style:none;
 }
-#img_class {
+.responsive_img {
 	position:centered;
-	max-width:800vh;
+	max-width:100%;
 	width:700px;
-	margin-top:40px;
+	margin-top:0px;
 .next, .prev{
 	cursor:pointer;
 }
