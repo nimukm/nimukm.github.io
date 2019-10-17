@@ -9,7 +9,7 @@ ul, li, h4, h3, h2, h1, p{
 	list-style:none;
 }
 .img_class {
-	position:relative;
+	position:centered;
 	height:800px;
 	width:700px;
 	margin-top:40px;
@@ -194,14 +194,7 @@ h1{
 	width:675px;
 	clear:both;
 	margin-left:20px;
-}
-#ticker-container{
-	position:relative;
-	padding-top:15px;
-}
-	#ticker-container button{
-		position:absolute;
-		right:5px;
+
 	}
 #add-news{
 	top:0px;
