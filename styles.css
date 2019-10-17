@@ -10,7 +10,7 @@ ul, li, h4, h3, h2, h1, p{
 }
 #img_class {
 	position:centered;
-	height:800px;
+	max-width:800vh;
 	width:700px;
 	margin-top:40px;
 .next, .prev{
