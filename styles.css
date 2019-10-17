@@ -14,7 +14,10 @@ ul, li, h4, h3, h2, h1, p{
 .next, .prev{
 	cursor:pointer;
 }
-
+.div
+	{
+		width: 100vw
+	}
 #screen{
 	position:relative;
 	height:425px;
