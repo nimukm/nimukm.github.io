@@ -9,8 +9,7 @@ ul, li, h4, h3, h2, h1, p{
 	list-style:none;
 }
 .responsive_img {
-	max-width:100%;
-	width:100%;
+	max-width:100vw;
 	margin-top:0px;
 .next, .prev{
 	cursor:pointer;
