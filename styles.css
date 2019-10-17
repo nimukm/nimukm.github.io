@@ -1,7 +1,7 @@
 body{
 	padding: 0 5px;
 	font-family: Verdana, sans-serif;
-	background-color: #DDD;
+	background-color: #000;
 }
 ul, li, h4, h3, h2, h1, p{
 	padding:0;
@@ -10,8 +10,8 @@ ul, li, h4, h3, h2, h1, p{
 }
 .img_class {
 	position:relative;
-	height:425px;
-	width:725px;
+	height:8000px;
+	width:7000px;
 	margin-top:40px;
 .next, .prev{
 	cursor:pointer;
