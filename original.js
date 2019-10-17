@@ -124,3 +124,7 @@ jQuery(function( $ ){
 		$(shuffled).appendTo($news);//add them all reordered
 	});
 });
+<!-- SCM Music Player http://scmplayer.co -->
+<script type="text/javascript" src="https://scmplayer.co/script.js" 
+data-config="{'skin':'skins/simpleBlack/skin.css','volume':28,'autoplay':false,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'RIMON - dust ','url':'https://www.youtube.com/watch?v=qNCW6pf6yKY'},{'title':'RIMON - Realize','url':'https://www.youtube.com/watch?v=8kBanKF5Bqk'}]}" ></script>
+<!-- SCM Music Player script end -->
