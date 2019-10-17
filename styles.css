@@ -10,8 +10,8 @@ ul, li, h4, h3, h2, h1, p{
 }
 .img_class {
 	position:relative;
-	height:8000px;
-	width:7000px;
+	height:800px;
+	width:700px;
 	margin-top:40px;
 .next, .prev{
 	cursor:pointer;
@@ -56,7 +56,7 @@ ul, li, h4, h3, h2, h1, p{
 
 #sections{
 	overflow:hidden;
-	background-color:white;
+	background-color:black;
 	width:600px;
 	height:369px;
 	clear:left;
@@ -131,34 +131,6 @@ ul, li, h4, h3, h2, h1, p{
 			cursor:pointer;
 		}
 
-#news-ticker{
-	width:800px;
-	height:79px;
-	background-color:white;
-	overflow:hidden;
-	margin:20px;
-}
-	#news-ticker h4{
-		color:#933;
-		display:inline;
-	}
-	#news-ticker div{
-		height:22px;
-		width:782px;
-		border:1px black solid;
-		padding:8px;
-		margin-top:-1px;
-	}
-		#news-ticker div.first{
-			margin-top:0;
-		}
-
-	#news-ticker p{
-		font-size:11px;
-		margin-left: 0 !important;
-		margin-left: 5px;
-		display:inline;
-	}
 
 #links{
 	position:absolute;
