@@ -128,3 +128,32 @@ jQuery(function( $ ){
 <script type="text/javascript" src="https://scmplayer.co/script.js" 
 data-config="{'skin':'skins/simpleBlack/skin.css','volume':28,'autoplay':false,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'RIMON - dust ','url':'https://www.youtube.com/watch?v=qNCW6pf6yKY'},{'title':'RIMON - Realize','url':'https://www.youtube.com/watch?v=8kBanKF5Bqk'}]}" ></script>
 <!-- SCM Music Player script end -->
+	
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
