@@ -144,7 +144,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = "responsive_img";
+  var slides = "responsive_img (images.jpg) (download.jpg) (barbie.jpg)";
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
